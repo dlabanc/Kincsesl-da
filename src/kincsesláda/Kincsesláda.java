@@ -5,17 +5,15 @@
  */
 package kincsesláda;
 
-/**
- *
- * @author hallgato
- */
 public class Kincsesláda {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public void anya() {
+        Ládák láda1 = new Ládák();
+        láda1.jatek();
     }
-    
+
+    public static void main(String[] args) {
+        new Kincsesláda().anya();
+    }
+
 }
